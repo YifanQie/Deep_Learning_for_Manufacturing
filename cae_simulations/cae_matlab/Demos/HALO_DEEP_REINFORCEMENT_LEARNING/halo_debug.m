@@ -123,7 +123,8 @@ for i=1:length(model.database.Input.Locator.ClampS)
 end
 %
 %% Build inputs
-model.database=modelBuildPart(model.database,'import'); 
+% model.database=modelBuildPart(model.database,'import'); 
+model.database=modelBuildPart(model.database); 
 model.database=modelBuildInput(model.database);
 %
 %% Get part UCS (aligned to the hole)
