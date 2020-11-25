@@ -140,7 +140,7 @@ setSample=[];
         % model.database=modelAddItem(model.database, 'Parameter');
         % model.database.Input.Parameter(1).X=X_from_AI;
         % setSample.IdTable=1; % Parameter table    
-[Xpara, flagpara]=modelSamplePlacement(model.database, plcParameter.Parameter, plcParameter.Group, setSample);
+[Xpara, flagpara]=modelSamplePlacement(model.database, plcParameter.Parameter, plcParameter.Group, setSample); % file not found
 if ~flagpara
     error('Failed to calculate parameter space - please check inputs!')
 end
