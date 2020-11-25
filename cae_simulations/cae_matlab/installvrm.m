@@ -4,7 +4,7 @@ function installvrm()
 % Add to matlab the following paths:
     % (1) FEM (src)
     % (2) FAO (src)
-    % (3) KINEMATICS (src)
+    % (3) KINEMATICS (src) % file not found
     % (4) Demos
     % (5) GUI
     % ....
